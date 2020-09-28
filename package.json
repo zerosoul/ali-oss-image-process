@@ -1,7 +1,7 @@
 {
-  "name": "react-starter",
+  "name": "ali-oss-image-process",
   "version": "2.0.0",
-  "description": "React webapp starter",
+  "description": "一站式处理阿里云图片",
   "main": "index.js",
   "dependencies": {
     "core-js": "^3.6.5",
@@ -16,8 +16,6 @@
     "react": "^16.13.1",
     "react-dev-utils": "^10.2.1",
     "react-dom": "^16.13.1",
-    "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0",
     "resolve-url-loader": "3.1.1",
     "style-loader": "1.2.1",
     "styled-components": "^5.2.0",
@@ -54,7 +52,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zerosoul/react-starter.git"
+    "url": "git+https://github.com/zerosoul/ali-oss-image-process.git"
   },
   "keywords": [
     "template",
@@ -66,9 +64,9 @@
   "author": "Tristan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zerosoul/react-starter/issues"
+    "url": "https://github.com/zerosoul/ali-oss-image-process/issues"
   },
-  "homepage": "http://works.yangerxiao.com/react-starter",
+  "homepage": "https://works.yangerxiao.com/ali-oss-image-process",
   "engines": {
     "node": ">=10.0.0",
     "npm": ">=6.0.0"
