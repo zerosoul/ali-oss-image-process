@@ -9,3 +9,5 @@
 - 旋转
 - 模糊
 - 亮度
+
+[参考文档](https://help.aliyun.com/document_detail/183902.html?spm=a2c4g.11186623.6.728.56711c37n9feYT)
