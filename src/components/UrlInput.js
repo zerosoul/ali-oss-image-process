@@ -3,6 +3,8 @@ import styled from 'styled-components';
 
 const StyledWrapper = styled.section`
   display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 1rem 0.5rem;
   width: 40rem;
   .url_input {
@@ -10,6 +12,10 @@ const StyledWrapper = styled.section`
     border: 1px solid #333;
     border-radius: 0.5rem;
     width: 100%;
+  }
+  .btn {
+    padding: 0.4rem;
+    width: 4rem;
   }
 `;
 export default function UrlInput({ url, updateUrl }) {
@@ -29,7 +35,9 @@ export default function UrlInput({ url, updateUrl }) {
         value={currUrl}
         placeholder="请输入阿里云图片URL"
       />
-      <button onClick={handleUpdate}>确定</button>
+      <button className="btn" onClick={handleUpdate}>
+        确定
+      </button>
     </StyledWrapper>
   );
 }
